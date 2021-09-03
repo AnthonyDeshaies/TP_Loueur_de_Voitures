@@ -1,0 +1,170 @@
+/* Index.php (Table "voitures")----------------------------------------------------------*/
+header {
+  width: 100%;
+  height: 150px;
+  background-color: darkorange;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 30px;
+}
+
+header h2 {
+  font-style: italic;
+  color: white;
+}
+
+.voitureForm {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: orange;
+  text-align: center;
+}
+
+.voitureForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 35px;
+  height: 200px;
+}
+
+.voitureForm form input {
+  height: 45px;
+}
+
+.voitureForm form span {
+  padding-right: 260px;
+}
+
+.voitureForm form .choose_img {
+  background-color: black;
+}
+
+.voitureForm form .envoyer {
+  height: 50px;
+  border-radius: 15px;
+  border: solid 4px darkorange;
+  background-color: black;
+  color: darkorange;
+}
+
+img {
+  width: 150px;
+}
+
+.listvoit {
+  width: 100%;
+  background-color: darkorange;
+  padding-top: 30px;
+}
+
+.listvoit table {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.listvoit th, .listvoit td {
+  text-align: center;
+}
+
+.listvoit th {
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+
+.listvoit td {
+  color: white;
+  background-color: black;
+}
+
+.listvoit a {
+  text-decoration: none;
+  font-family: 'Festive', cursive;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.listvoit .suppr {
+  color: red;
+}
+
+/* clients.php (Table "users")-----------------------------------------------------------*/
+form {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: darkorange;
+  font-size: 25px;
+}
+
+form select, form input {
+  height: 25px;
+  background-color: grey;
+}
+
+form .enregistrer {
+  height: 50px;
+  background-color: black;
+  color: darkorange;
+  border-radius: 15px;
+  border: 4px solid darkorange;
+}
+
+table {
+  width: 100%;
+  border: 0;
+}
+
+table th, table td {
+  border: none;
+}
+
+table th {
+  height: 50px;
+  background-color: darkorange;
+  font-size: 20px;
+}
+
+table td {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+table .update, table .suppr {
+  text-decoration: none;
+  font-family: 'Festive', cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+table .update {
+  color: darkslateblue;
+}
+
+table .suppr {
+  color: red;
+}
+
+.image img {
+  width: 150px;
+}
+/*# sourceMappingURL=style.css.map */
